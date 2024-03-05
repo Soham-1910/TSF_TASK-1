@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Navbar</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="/"><img src="assests/bg.png" height="100" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Home</a></li>
+                <li class="nav-link services">
+                    <a href="#">Services
+                        <img class="material-icons dropdown-icon" src="assests/dp.png" alt="dropdown-arrow">
+                    </a>
+                    <ul class="drop-down">
+                        <li><a href="moneytransfer.html">Money Transfer</a></li>
+                        <li><a href="cutomerdetails.html">Customer Details</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <a class="cta" href="contact.html">Contact</a>
+        <p class="menu cta">Menu</p>
+    </header>
+    <div class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+        </div>
+    </div>
+
+    <section class="home">
+        <div>
+            <h1 id="title">
+                The Sparks Bank
+            </h1>
+
+            <h2 class="hi">Our History & Mission</h2>
+
+            <p class="p1">
+                Since our establishment in 2001, Sparks Bank has been dedicated to serving the financial needs of
+                individuals, businesses, and communities across India.
+            </p>
+            <br>
+            <h2 class="hi">A Legacy of Excellence</h2>
+            <p class="p1">
+                Sparks Bank has a rich history spanning over 23 years, rooted in our commitment to integrity,
+                innovation, and customer satisfaction. From our humble beginnings as a local community bank to our
+                current position as a trusted financial institution, we have continuously evolved to meet the changing
+                needs of our customers and the dynamic landscape of the financial industry.
+            </p>
+
+            <h2 class="hi">
+                Mission Statement
+            </h2>
+
+            <p class="p1">
+                Our mission at Sparks Bank is to empower individuals and businesses to achieve their financial goals by
+                providing personalized solutions, exceptional service, and innovative products. We strive to be a
+                reliable partner and a responsible corporate citizen, contributing to the prosperity and well-being of
+                the communities we serve.
+            </p>
+        </div>
+    </section>
+
+    <footer id="footer" class="coloured-section">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <section id="socials">
+            <i class="social-icon fa fa-facebook-square" aria-hidden></i>
+            <i class="social-icon fa fa-instagram" aria-hidden="true"></i>
+            <i class="social-icon fa fa-twitter" aria-hidden="true"></i>
+            <i class="social-icon fa fa-linkedin" aria-hidden="true"></i>
+        </section>
+        <p class="p2">Address- Vikas nagar,Kiwale - 412101</p>
+        <p class="p2">© Copyright 2024 SPARKS Bank.</p>
+    </footer>
+    <script type="text/javascript" src="js/mobile.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
